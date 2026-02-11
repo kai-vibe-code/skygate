@@ -25,7 +25,7 @@ const PartnersSection = () => {
             Cùng Phát Triển, Cùng Thành Công
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            SkyGate kết nối HTX, Tài xế và Cây xăng trong một hệ sinh thái hoàn chỉnh
+            LiMi VN kết nối HTX, Tài xế và Cây xăng trong một hệ sinh thái hoàn chỉnh
           </p>
         </div>
 

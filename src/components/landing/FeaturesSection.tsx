@@ -39,7 +39,7 @@ const FeaturesSection = () => {
             Tất Cả Trong Một Ứng Dụng
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Từ thanh toán đến hóa đơn, từ quản lý đến tích điểm – SkyGate lo tất
+            Từ thanh toán đến hóa đơn, từ quản lý đến tích điểm – LiMi VN lo tất
           </p>
         </div>
 

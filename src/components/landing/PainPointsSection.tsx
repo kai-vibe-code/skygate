@@ -31,7 +31,7 @@ const PainPointsSection = () => {
             Hiểu Rõ Vấn Đề, Giải Pháp Tức Thì
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            SkyGate sinh ra để giải quyết những bất tiện hàng ngày của tài xế vận tải
+          LiMi VN sinh ra để giải quyết những bất tiện hàng ngày của tài xế vận tải
           </p>
         </div>
 

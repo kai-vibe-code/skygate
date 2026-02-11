@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn thanh toán QR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2d3436;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #c92a2a;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #1976d2;
+            font-size: 22px;
+            margin: 30px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        h3 {
+            color: #495057;
+            font-size: 18px;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #495057;
+        }
+
+        ol, ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #1976d2;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .info-box {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        strong {
+            color: #2d3436;
+        }
+
+        .highlight {
+            background: #fff3bf;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💳 Hướng dẫn thanh toán QR tại cây xăng</h1>
+        
+        <div class="info-box">
+            <p><strong>📌 Điều kiện:</strong> Bạn đã hoàn tất uỷ quyền cho VietinBank iPay thành công.</p>
+        </div>
+
+        <h2>📖 Quy trình thanh toán</h2>
+
+        <div class="step">
+            <h3>Bước 1: Đổ xăng như bình thường</h3>
+            <p>Đến cây xăng và đổ xăng như bạn vẫn thường làm.</p>
+            <p>Nhân viên sẽ phục vụ và đổ xăng theo yêu cầu của bạn.</p>
+        </div>
+
+        <div class="step">
+            <h3>Bước 2: Chọn thanh toán bằng QR</h3>
+            <p>Khi đến bước thanh toán, thông báo với nhân viên cây xăng rằng bạn muốn <span class="highlight">thanh toán bằng QR</span>.</p>
+            <p>Nhân viên sẽ hướng dẫn bạn vị trí mã QR của trạm xăng.</p>
+        </div>
+
+        <div class="step">
+            <h3>Bước 3: Quét mã QR của cây xăng</h3>
+            <p>Mở ứng dụng <strong>LiMi</strong> và chọn chức năng <strong>Quét QR</strong>.</p>
+            <p>Quét mã QR của cây xăng. Mã QR có thể được đặt ở các vị trí sau:</p>
+            <ul>
+                <li>🔧 <strong>Trên trục bơm xăng</strong> - Dán trực tiếp trên máy bơm</li>
+                <li>🖼️ <strong>Trên bàn nhân viên</strong> - Frame QR đặt tại quầy thu ngân</li>
+                <li>📱 <strong>Trên điện thoại nhân viên</strong> - Nhân viên hiển thị mã QR</li>
+                <li>🪧 <strong>Biển QR tại cây xăng</strong> - Biển lớn đặt ở vị trí dễ nhìn</li>
+            </ul>
+            <div class="info-box">
+                <p><strong>💡 Mẹo:</strong> Nếu không tìm thấy mã QR, hỏi nhân viên cây xăng để được hỗ trợ.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <h3>Bước 4: Kiểm tra thông tin chuyển khoản</h3>
+            <p>Sau khi quét QR thành công, ứng dụng sẽ chuyển đến <strong>màn hình chuyển khoản</strong>.</p>
+            <p>Màn hình này sẽ hiển thị:</p>
+            <ul>
+                <li>📤 <strong>Thông tin người chuyển:</strong> Tài khoản VietinBank của bạn</li>
+                <li>📥 <strong>Thông tin người nhận:</strong> Tài khoản ngân hàng của cây xăng</li>
+                <li>🏢 <strong>Tên cây xăng:</strong> Tên đầy đủ của trạm xăng</li>
+            </ul>
+            <div class="warning-box">
+                <p><strong>⚠️ Quan trọng:</strong> Kiểm tra kỹ thông tin người nhận để đảm bảo đúng cây xăng bạn đang thanh toán.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <h3>Bước 5: Nhập số tiền thanh toán</h3>
+            <p>Nhập số tiền tương ứng với số tiền xăng bạn cần thanh toán.</p>
+            <p>Số tiền này do nhân viên cây xăng thông báo cho bạn.</p>
+            <p>Nhấn nút <strong>"Next"</strong> để tiếp tục.</p>
+        </div>
+
+        <div class="step">
+            <h3>Bước 6: Xem lại thông tin giao dịch</h3>
+            <p>Màn hình review sẽ hiển thị đầy đủ thông tin giao dịch:</p>
+            <ul>
+                <li>💰 Số tiền chuyển</li>
+                <li>🏪 Tên người nhận (cây xăng)</li>
+                <li>🏦 Tài khoản ngân hàng người nhận</li>
+                <li>📝 Nội dung chuyển khoản (nếu có)</li>
+            </ul>
+            <p>Kiểm tra kỹ tất cả thông tin một lần nữa.</p>
+            <p>Nhấn nút <strong>"Confirm"</strong> để xác nhận giao dịch.</p>
+        </div>
+
+        <div class="step">
+            <h3>Bước 7: Nhập mã PIN để xác thực</h3>
+            <p>Nhập mã PIN 6 số mà bạn đã thiết lập khi đăng ký.</p>
+            <p>Hệ thống sẽ xử lý giao dịch (thường mất vài giây).</p>
+            <div class="success-box">
+                <p><strong>✅ Thanh toán thành công!</strong></p>
+                <p>Bạn sẽ nhận được thông báo xác nhận giao dịch thành công.</p>
+                <p>Có thể xuất hóa đơn điện tử hoặc lưu lại thông tin giao dịch trong lịch sử.</p>
+            </div>
+        </div>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <h3 style="color: #0c5460; margin-top: 0;">📋 Tóm tắt quy trình thanh toán</h3>
+            <ol>
+                <li>Đổ xăng như bình thường</li>
+                <li>Chọn thanh toán bằng QR</li>
+                <li>Mở LiMi và quét QR của cây xăng</li>
+                <li>Kiểm tra thông tin chuyển khoản</li>
+                <li>Nhập số tiền → Next</li>
+                <li>Review lại → Confirm</li>
+                <li>Nhập mã PIN → Hoàn tất</li>
+            </ol>
+        </div>
+
+        <h2>❓ Câu hỏi thường gặp</h2>
+
+        <h3>1. Tôi không tìm thấy mã QR ở cây xăng?</h3>
+        <p>Hãy hỏi nhân viên cây xăng. Họ sẽ hướng dẫn bạn vị trí đặt mã QR hoặc hiển thị mã QR trên điện thoại của họ.</p>
+
+        <h3>2. App báo lỗi khi quét QR?</h3>
+        <p>Hãy thử các cách sau:</p>
+        <ul>
+            <li>Kiểm tra kết nối internet</li>
+            <li>Đảm bảo camera có đủ ánh sáng để quét QR rõ nét</li>
+            <li>Thử lại hoặc yêu cầu nhân viên hiển thị QR ở vị trí khác</li>
+            <li>Thoát app và mở lại</li>
+        </ul>
+
+        <h3>3. Tôi nhập sai số tiền thì làm sao?</h3>
+        <p>Bạn có thể quay lại bước nhập số tiền trước khi nhấn Confirm. Sau khi đã Confirm và nhập PIN, giao dịch không thể hoàn tác.</p>
+
+        <h3>4. Tôi quên mã PIN thì làm sao?</h3>
+        <p>Vui lòng liên hệ với HTX để được hỗ trợ đặt lại mã PIN.</p>
+
+        <h3>5. Giao dịch thất bại thì phải làm gì?</h3>
+        <p>Nếu giao dịch thất bại:</p>
+        <ul>
+            <li>Kiểm tra số dư tài khoản VietinBank</li>
+            <li>Kiểm tra kết nối internet</li>
+            <li>Thử lại giao dịch</li>
+            <li>Nếu vẫn lỗi, liên hệ với HTX hoặc hotline hỗ trợ</li>
+        </ul>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <h3 style="color: #0c5460; margin-top: 0;">📞 Cần hỗ trợ?</h3>
+            <p>Nếu gặp bất kỳ vấn đề nào trong quá trình thanh toán, vui lòng liên hệ với văn phòng HTX của bạn để được hỗ trợ.</p>
+        </div>
+    </div>
+</body>
+</html>

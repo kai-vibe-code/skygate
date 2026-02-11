@@ -11,7 +11,7 @@ const FooterSection = () => {
             Sẵn Sàng Đổ Xăng Không Tiền Mặt?
           </h2>
           <p className="text-lg text-secondary-foreground/80 mb-8 max-w-xl mx-auto">
-            Tải SkyGate ngay hôm nay và trải nghiệm sự tiện lợi. Miễn phí hoàn toàn, không phí ẩn.
+            Tải LiMi VN ngay hôm nay và trải nghiệm sự tiện lợi. Miễn phí hoàn toàn, không phí ẩn.
           </p>
           
           <Button size="lg" className="gap-2 text-lg px-10 py-7 mb-8">
@@ -60,7 +60,7 @@ const FooterSection = () => {
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                   <Fuel className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <span className="text-xl font-bold">SkyGate</span>
+                <span className="text-xl font-bold">LiMi VN</span>
               </div>
               <p className="text-secondary-foreground/70 text-sm">
                 Giải pháp Fintech tích hợp ngân hàng cho ngành vận tải Việt Nam.
@@ -110,7 +110,7 @@ const FooterSection = () => {
           </div>
 
           <div className="border-t border-secondary-foreground/10 pt-8 text-center text-sm text-secondary-foreground/60">
-            <p>© 2025 SkyGate. Giữ bản quyền. Công ty TNHH Công Nghệ Sky Tech Việt Nam.</p>
+            <p>© 2025 LiMi VN. Giữ bản quyền. Công ty TNHH Công Nghệ Sky Tech Việt Nam.</p>
           </div>
         </div>
       </footer>

@@ -32,9 +32,9 @@ const PolicyPage = () => {
               <h2 className="text-2xl font-semibold text-foreground">Giới Thiệu</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Chào mừng bạn đến với SkyGate. Chúng tôi cam kết bảo vệ quyền riêng tư và bảo mật 
+              Chào mừng bạn đến với LiMi VN. Chúng tôi cam kết bảo vệ quyền riêng tư và bảo mật 
               thông tin cá nhân của bạn. Chính sách bảo mật này giải thích cách chúng tôi thu thập, 
-              sử dụng và bảo vệ dữ liệu của bạn khi sử dụng ứng dụng thanh toán nhiên liệu SkyGate.
+              sử dụng và bảo vệ dữ liệu của bạn khi sử dụng ứng dụng thanh toán nhiên liệu LiMi VN.
             </p>
           </section>
 
@@ -167,7 +167,7 @@ const PolicyPage = () => {
       {/* Footer */}
       <footer className="bg-muted py-6 border-t border-border">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2025 SkyGate. Giữ bản quyền. Công ty TNHH Công Nghệ Sky Tech Việt Nam.</p>
+          <p>© 2025 LiMi VN. Giữ bản quyền. Công ty TNHH Công Nghệ Sky Tech Việt Nam.</p>
         </div>
       </footer>
     </div>

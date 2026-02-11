@@ -14,22 +14,73 @@ const FooterSection = () => {
             Tải LiMi VN ngay hôm nay và trải nghiệm sự tiện lợi. Miễn phí hoàn toàn, không phí ẩn.
           </p>
           
-          <Button size="lg" className="gap-2 text-lg px-10 py-7 mb-8">
-            <Smartphone className="w-6 h-6" />
-            Tải App Miễn Phí
+          <Button asChild size="lg" className="gap-2 text-lg px-10 py-7 mb-8">
+            <a href="https://onelink.to/sgj9wy" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2">
+              <Smartphone className="w-6 h-6" />
+              Tải App Miễn Phí
+            </a>
           </Button>
 
-          <div className="flex justify-center items-center gap-6">
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
-              alt="Google Play" 
-              className="h-14 cursor-pointer hover:opacity-80 transition-opacity"
-            />
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
-              alt="App Store" 
-              className="h-14 cursor-pointer hover:opacity-80 transition-opacity"
-            />
+          <div className="flex flex-col justify-center items-center gap-8">
+            <div className="flex justify-center items-center gap-6">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.skygate.epay&hl=vi"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Tải LiMi Vn trên Google Play"
+              >
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                  alt="Google Play" 
+                  className="h-12 sm:h-14 cursor-pointer hover:opacity-80 transition-opacity"
+                />
+              </a>
+              <a
+                href="https://apps.apple.com/vn/app/limi-vn/id6756335383"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Tải LiMi Vn trên App Store"
+              >
+                <img 
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
+                  alt="App Store" 
+                  className="h-12 sm:h-14 cursor-pointer hover:opacity-80 transition-opacity"
+                />
+              </a>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <span className="text-sm text-secondary-foreground/80">Quét mã QR tải app</span>
+              <div className="flex gap-4 sm:gap-5">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.skygate.epay&hl=vi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center gap-1.5"
+                  aria-label="QR tải LiMi Vn cho Android"
+                >
+                  <img
+                    src="/Android.png"
+                    alt="QR tải app Android"
+                    className="w-25 h-25 md:w-40 md:h-40 max-w-full object-contain rounded-xl bg-white p-1 shadow-sm"
+                  />
+                  <span className="text-xs text-secondary-foreground/90">Android</span>
+                </a>
+                <a
+                  href="https://apps.apple.com/vn/app/limi-vn/id6756335383"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center gap-1.5"
+                  aria-label="QR tải LiMi Vn cho iOS"
+                >
+                  <img
+                    src="/IOS.png"
+                    alt="QR tải app iOS"
+                    className="w-25 h-25 md:w-40 md:h-40 max-w-full object-contain rounded-xl bg-white p-1 shadow-sm"
+                  />
+                  <span className="text-xs text-secondary-foreground/90">iOS</span>
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Security badges */}

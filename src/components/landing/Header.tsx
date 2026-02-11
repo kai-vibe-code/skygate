@@ -12,7 +12,11 @@ const Header = () => {
           <a href="#partners" className="text-foreground/70 hover:text-primary transition-colors">Đối tác</a>
           <a href="#how-it-works" className="text-foreground/70 hover:text-primary transition-colors">Hướng dẫn</a>
         </nav>
-        <Button className="hidden md:flex">Tải App</Button>
+        <Button asChild className="hidden md:flex">
+          <a href="https://onelink.to/sgj9wy" target="_blank" rel="noopener noreferrer">
+            Tải App
+          </a>
+        </Button>
       </div>
     </header>
   );

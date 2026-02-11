@@ -51,34 +51,22 @@ const FooterSection = () => {
             <div className="flex flex-col items-center gap-2">
               <span className="text-sm text-secondary-foreground/80">Quét mã QR tải app</span>
               <div className="flex gap-4 sm:gap-5">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.skygate.epay&hl=vi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-1.5"
-                  aria-label="QR tải LiMi Vn cho Android"
-                >
+                <div className="flex flex-col items-center gap-1.5">
                   <img
                     src="/Android.png"
                     alt="QR tải app Android"
                     className="w-25 h-25 md:w-40 md:h-40 max-w-full object-contain rounded-xl bg-white p-1 shadow-sm"
                   />
                   <span className="text-xs text-secondary-foreground/90">Android</span>
-                </a>
-                <a
-                  href="https://apps.apple.com/vn/app/limi-vn/id6756335383"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-1.5"
-                  aria-label="QR tải LiMi Vn cho iOS"
-                >
+                </div>
+                <div className="flex flex-col items-center gap-1.5">
                   <img
                     src="/IOS.png"
                     alt="QR tải app iOS"
                     className="w-25 h-25 md:w-40 md:h-40 max-w-full object-contain rounded-xl bg-white p-1 shadow-sm"
                   />
                   <span className="text-xs text-secondary-foreground/90">iOS</span>
-                </a>
+                </div>
               </div>
             </div>
           </div>
